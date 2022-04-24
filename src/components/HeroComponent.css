@@ -1,0 +1,14 @@
+.me{
+    width:300px !important;
+    padding-top: 50px ;
+    margin-bottom: 50px ;
+}
+
+.image-bg{
+    background-position: bottom;
+    width: 100%;
+    height: 870px;
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/66/82/pKCuAG.png');
+    object-fit: fill;
+    background-repeat:no-repeat;
+}

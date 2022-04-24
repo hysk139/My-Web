@@ -1,0 +1,7 @@
+export { default as Navbar } from "./Navbar"
+export { default as Project } from "./Project"
+export { default as Skills } from "./Skills"
+export { default as HeroComponent } from "./HeroComponent"
+export { default as Footer } from "./Footer"
+export { default as Contact } from "./Contact"
+export { default as AboutMe } from "./AboutMe"
