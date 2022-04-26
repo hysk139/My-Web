@@ -15,7 +15,7 @@ const Project = () => {
         </h1>
     </div>
     <div class="row mb-4">
-      <div class="col col-lg-6 mb-3 mb-lg-0">
+      <div class="col-lg-6 col-sm-12 col-xs-12 mt-4 mb-lg-0">
         <div class="hover hover-3 text-white rounded"><img src={project1} alt=""></img>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
@@ -49,7 +49,7 @@ const Project = () => {
 
 
 
-        <div class="col col-lg-6 mb-3 mb-lg-0">
+        <div class="col-lg-6 col-sm-12 col-xs-12 mt-4 mb-lg-0">
         <div class="hover hover-3 text-white rounded"><img src={project2} alt=""></img>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
@@ -81,10 +81,7 @@ const Project = () => {
           </div>
         </div>
 
-      </div>
-
-      <div class="row mb-4">
-        <div class="col col-lg-6 mb-3 mb-lg-0">
+        <div class="col-lg-6 col-sm-12 col-xs-12 mt-4 mb-lg-0">
           <div class="hover hover-3 text-white rounded"><img src={project3} alt=""></img>
             <div class="hover-overlay"></div>
             <div class="hover-3-content px-5 py-4">
@@ -118,7 +115,7 @@ const Project = () => {
 
 
 
-        <div class="col col-lg-6 mb-3 mb-lg-0">
+        <div class="col-lg-6 col-sm-12 col-xs-12 mt-4 mb-lg-0">
         <div class="hover hover-3 text-white rounded"><img src={project4} alt=""></img>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
@@ -148,6 +145,11 @@ const Project = () => {
             </div>
           </div>
         </div>
+
+      </div>
+
+      <div class="row mb-4">
+        
 
       </div>
       

@@ -10,13 +10,12 @@ const AboutMe = () => {
             </h1>
         </div>
         
-        <div class="row container">
+        <div class="row">
             <div class="col-md-4 col-sm-12 d-flex align-items-center">
               <img class="img-fluid rounded mx-auto d-block pb-5" src={me} alt="..."></img>
             </div>
-            <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center"
-                >
-                 <p class="w-75 text-center">
+            <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center">
+              <p class="w-75 text-center">
               My name is Ahmad Fakhri Mirfananda. I am a Computer Engineering Student in Universitas Indonesia. I am highly motivated in learning new things and I have high interest in everything technology. I am experienced in both web development projects and mobile development projects. I always strive to develop myself better by learning and tackling new challenges in development projects. Currently, I am the Project Manager of my organization in campus.
               </p>
             </div>
