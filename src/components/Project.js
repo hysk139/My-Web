@@ -53,7 +53,7 @@ const Project = () => {
         <div class="hover hover-3 text-white rounded"><img src={project2} alt=""></img>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
-            <h1 class="hover-3-description text-uppercase mb-0">yourkeeb</h1>
+            <h1 class="hover-3-description text-uppercase mb-1">yourkeeb</h1>
             <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project2-modal">More Info</button>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Project = () => {
           <div class="hover hover-3 text-white rounded"><img src={project3} alt=""></img>
             <div class="hover-overlay"></div>
             <div class="hover-3-content px-5 py-4">
-              <h1 class="hover-3-description text-uppercase mb-0">EDUC8</h1>
+              <h1 class="hover-3-description text-uppercase mb-1">EDUC8</h1>
               <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project3-modal">More Info</button>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Project = () => {
         <div class="hover hover-3 text-white rounded"><img src={project4} alt=""></img>
           <div class="hover-overlay"></div>
           <div class="hover-3-content px-5 py-4">
-            <h1 class="hover-3-description text-uppercase mb-0">Web Scrapping Tool</h1>
+            <h1 class="hover-3-description text-uppercase mb-1">Web Scrapping</h1>
             <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project4-modal">More Info</button>
           </div>
         </div>
