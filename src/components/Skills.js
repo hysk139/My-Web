@@ -14,21 +14,21 @@ const Skills = () => {
         </h1>
     </div>
       <div class="row text-center ">
-         <div class="col">
+         <div class="col-lg-3 col-sm-6 col-xs-12">
          <img class="rounded mx-auto d-block w-25" src={logoHtml} alt="..."></img>
-         <h5 class="fw-bold mt-1">HTML & CSS</h5>
+         <h5 class="fw-bold mt-1 mb-4">HTML & CSS</h5>
          </div>
-         <div class="col">
+         <div class="col-lg-3 col-sm-6 col-xs-12">
          <img class="rounded mx-auto d-block w-25" src={logoJS} alt="..."></img>
-         <h5 class="fw-bold mt-1">JavaScript</h5>
+         <h5 class="fw-bold mt-1 mb-4">JavaScript</h5>
          </div>
-         <div class="col">
+         <div class="col-lg-3 col-sm-6 col-xs-12">
          <img class="rounded mx-auto d-block w-25" src={logoJava} alt="..."></img>
-         <h5 class="fw-bold mt-1">Java</h5>
+         <h5 class="fw-bold mt-1 mb-4">Java</h5>
          </div>
-         <div class="col">
+         <div class="col-lg-3 col-sm-6 col-xs-12">
          <img class="rounded mx-auto d-block w-25" src={logoReact} alt="..."></img>
-         <h5 class="fw-bold mt-1">React</h5>
+         <h5 class="fw-bold mt-1 mb-4">React</h5>
          </div>
       </div>
     </div>
