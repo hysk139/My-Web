@@ -14,18 +14,18 @@ const Project = () => {
             Projects I Have Worked On
         </h1>
     </div>
-      <div class="row mb-4">
-      <div class="col  text-center container-project">
-        <img class="rounded mx-auto d-block w-100 image-project" src={project1} alt="..."></img>
-        <div class="middle">
-          <div class="text">EZCOOKFORME</div>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1-modal">
-            More Info
-          </button>
-
+    <div class="row mb-4">
+      <div class="col col-lg-6 mb-3 mb-lg-0">
+        <div class="hover hover-3 text-white rounded"><img src={project1} alt=""></img>
+          <div class="hover-overlay"></div>
+          <div class="hover-3-content px-5 py-4">
+            <h1 class="hover-3-description text-uppercase mb-1">EZCOOKFORME</h1>
+            <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project1-modal">More Info</button>
+          </div>
         </div>
-       </div>
-       <div class="modal fade " id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>
+
+        <div class="modal fade " id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-centered" role="dialog">
             <div class="modal-content">
               <div class="modal-header justify-content-center">
@@ -47,17 +47,19 @@ const Project = () => {
           </div>
         </div>
 
-       <div class="col thumbnail text-center container-project">
-        <img class="rounded mx-auto d-block w-100 h-100 image-project" src={project2} alt="..."></img>
-        <div class="middle">
-          <div class="text">yourkeeb</div>
-          <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#project2-modal">More Info</button>
 
 
+        <div class="col col-lg-6 mb-3 mb-lg-0">
+        <div class="hover hover-3 text-white rounded"><img src={project2} alt=""></img>
+          <div class="hover-overlay"></div>
+          <div class="hover-3-content px-5 py-4">
+            <h1 class="hover-3-description text-uppercase mb-0">yourkeeb</h1>
+            <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project2-modal">More Info</button>
+          </div>
         </div>
-       </div>
+        </div>
 
-       <div class="modal fade " id="project2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade " id="project2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-centered" role="dialog">
             <div class="modal-content">
               <div class="modal-header justify-content-center">
@@ -79,20 +81,19 @@ const Project = () => {
           </div>
         </div>
 
-
       </div>
-      <div class="row mb-4">
-      <div class="col  text-center container-project">
-        <img class="rounded mx-auto d-block w-100 h-100 image-project" src={project3} alt="..."></img>
-        <div class="middle">
-          <div class="text">EDUC8</div>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3-modal">
-            More Info
-          </button>
 
+      <div class="row mb-4">
+        <div class="col col-lg-6 mb-3 mb-lg-0">
+          <div class="hover hover-3 text-white rounded"><img src={project3} alt=""></img>
+            <div class="hover-overlay"></div>
+            <div class="hover-3-content px-5 py-4">
+              <h1 class="hover-3-description text-uppercase mb-0">EDUC8</h1>
+              <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project3-modal">More Info</button>
+            </div>
+          </div>
         </div>
-       </div>
-       <div class="modal fade " id="project3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade " id="project3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-centered" role="dialog">
             <div class="modal-content">
               <div class="modal-header justify-content-center">
@@ -114,17 +115,19 @@ const Project = () => {
           </div>
         </div>
 
-       <div class="col thumbnail text-center container-project">
-        <img class="rounded mx-auto d-block w-100 h-100 image-project" src={project4} alt="..."></img>
-        <div class="middle">
-          <div class="text">Web Scrapping</div>
-          <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#project4-modal">More Info</button>
 
 
+
+        <div class="col col-lg-6 mb-3 mb-lg-0">
+        <div class="hover hover-3 text-white rounded"><img src={project4} alt=""></img>
+          <div class="hover-overlay"></div>
+          <div class="hover-3-content px-5 py-4">
+            <h1 class="hover-3-description text-uppercase mb-0">Web Scrapping Tool</h1>
+            <button type="button" class="btn btn-light btn-sm hover-3-description" data-bs-toggle="modal" data-bs-target="#project4-modal">More Info</button>
+          </div>
         </div>
-       </div>
-
-       <div class="modal fade " id="project4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>
+        <div class="modal fade " id="project4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-centered" role="dialog">
             <div class="modal-content">
               <div class="modal-header justify-content-center">
@@ -145,7 +148,6 @@ const Project = () => {
             </div>
           </div>
         </div>
-
 
       </div>
       
